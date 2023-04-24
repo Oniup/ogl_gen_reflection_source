@@ -8,7 +8,7 @@ void Debug::enable() {
     m_enabled = true;
 }
 
-void Debug::print(const std::string& message, DebugType debug_type) {
+void Debug::log(const std::string& message, DebugType debug_type) {
     if (m_enabled) {
         switch (debug_type) {
         case DebugType_Message:
@@ -23,6 +23,6 @@ void Debug::print(const std::string& message, DebugType debug_type) {
             std::cout << "[Error]: ";
             break;
         }
-        std::cout << message;
+        std::cout << message << "\n";
     }
 }

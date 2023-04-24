@@ -10,6 +10,8 @@ set(
     ${CMAKE_CURRENT_SOURCE_DIR}/src/input_args.hpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/debug.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/debug.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/tokenizer.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/tokenizer.hpp
 )
 
 add_executable(${CMAKE_PROJECT_NAME} ${OGL_SOURCE})
