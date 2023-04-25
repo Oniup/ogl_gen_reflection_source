@@ -1,6 +1,6 @@
 /****************************************************************************/
 /* game_components.hpp                                                      */
-/* This file is part of: ogl_gen_reflection_file                            */
+/* This file is part of: ogl_gen_reflection_source                          */
 /****************************************************************************/
 /* Copyright 2023 Ewan Robson                                               */
 /*                                                                          */
